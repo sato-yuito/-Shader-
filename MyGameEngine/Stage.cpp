@@ -74,7 +74,7 @@ void Stage::Update()
 		XMFLOAT4 p = GetLightPos();
 		XMFLOAT4 margin{ p.x - 0.0f, p.y - 0.0f, p.z - 0.1f, p.w - 0.0f };
 
-		//Model::GetModel(hModel_)->SetLightPos(margin);
+		
 		SetLightPos(margin);
 	}
 	XMFLOAT4 tmp{ GetLightPos() };
